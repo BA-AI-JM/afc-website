@@ -33,7 +33,7 @@ export const events: Event[] = [
     venue: 'TESTBED Leeds',
     location: 'Leeds',
     image: '/images/DN4_0944.jpg',
-    fightCount: 0,
+    fightCount: 22,
     isUpcoming: false,
     description: 'Catchweight title main event — Stevie Lee def. Lucas Carvalho via Split Decision.',
     fights: [
@@ -48,8 +48,9 @@ export const events: Event[] = [
     venue: 'Deeside Leisure Centre',
     location: 'Deeside, Wales',
     image: '/images/AlmightyMarchDeeside-493.jpg',
-    fightCount: 0,
+    fightCount: 18,
     isUpcoming: false,
+    description: 'Main event — Georgi Yerosalimov def. Abraham Dannan via Unanimous Decision (3 rounds).',
   },
   {
     slug: 'afc-40',
@@ -59,8 +60,9 @@ export const events: Event[] = [
     venue: 'TESTBED Leeds',
     location: 'Leeds',
     image: '/images/DN4_0944.jpg',
-    fightCount: 0,
+    fightCount: 17,
     isUpcoming: false,
+    description: 'Flyweight title fight — Sandhu vs. Bhatti.',
   },
   {
     slug: 'afc-39',
@@ -70,8 +72,9 @@ export const events: Event[] = [
     venue: 'Coventry Sports Connection',
     location: 'Coventry',
     image: '/images/DN4_3688.jpg',
-    fightCount: 0,
+    fightCount: 26,
     isUpcoming: false,
+    description: 'One of the biggest AFC events to date. 26 fights on the card. Lightweight title: Beale vs. Rycak.',
   },
   {
     slug: 'afc-38',
@@ -81,15 +84,16 @@ export const events: Event[] = [
     venue: 'Barnsley Metrodome',
     location: 'Barnsley',
     image: '/images/DN4_3372.jpg',
-    fightCount: 0,
+    fightCount: 20,
     isUpcoming: false,
+    description: 'Double title night. Heavyweight: Josh Carrick def. AJ Sturge. Flyweight: Shahadot Choudhury def. Shahad Younis. Both via Unanimous Decision.',
     fights: [
       { weightClass: 'Heavyweight', fighter1: 'Josh Carrick', fighter2: 'AJ Sturge', result: 'Josh Carrick wins', method: 'Unanimous Decision', round: 5, isTitle: true },
       { weightClass: 'Flyweight', fighter1: 'Shahadot Choudhury', fighter2: 'Shahad Younis', result: 'Shahadot Choudhury wins', method: 'Unanimous Decision', round: 5, isTitle: true },
     ],
   },
   {
-    slug: 'afc-37-deeside',
+    slug: 'afc-37',
     number: 37,
     name: 'AFC 37',
     date: '2024-08-03',
@@ -98,18 +102,7 @@ export const events: Event[] = [
     image: '/images/AlmightyMarchDeeside-493.jpg',
     fightCount: 0,
     isUpcoming: false,
-  },
-  {
-    slug: 'afc-37-cardiff',
-    number: 37,
-    name: 'AFC 37 (Cardiff)',
-    date: '2024-08-17',
-    venue: 'Vale Sport Arena Cardiff',
-    location: 'Cardiff, Wales',
-    image: '/images/AlmightyMarchDeeside-501.jpg',
-    fightCount: 0,
-    isUpcoming: false,
-    description: 'Separate smaller event — limited bout info available.',
+    description: 'Featherweight title fight — Balmer vs. Mackenzie.',
   },
   {
     slug: 'afc-36',
@@ -119,8 +112,9 @@ export const events: Event[] = [
     venue: 'Coventry Sports Connection',
     location: 'Coventry',
     image: '/images/DN4_3688.jpg',
-    fightCount: 0,
+    fightCount: 22,
     isUpcoming: false,
+    description: 'Light Heavyweight title fight — Jones vs. Cartridge.',
   },
   {
     slug: 'afc-35',
@@ -128,10 +122,11 @@ export const events: Event[] = [
     name: 'AFC 35',
     date: '2024-03-30',
     venue: 'Deeside Leisure Centre',
-    location: 'Colchester',
+    location: 'Deeside, Wales',
     image: '/images/AlmightyMarchDeeside-493.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Welterweight title fight — Rutherford vs. Shemeld.',
   },
   {
     slug: 'afc-34',
@@ -143,6 +138,7 @@ export const events: Event[] = [
     image: '/images/DN4_3372.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Fields vs. Gramiccia at 135 lbs.',
   },
   {
     slug: 'afc-33',
@@ -154,6 +150,7 @@ export const events: Event[] = [
     image: '/images/DN4_3372.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Lightweight title fight — Jakab Jr. vs. Vesca.',
   },
   {
     slug: 'afc-32',
@@ -165,6 +162,7 @@ export const events: Event[] = [
     image: '/images/AlmightyMarchDeeside-493.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'McGee vs. Tounsi at 135 lbs.',
   },
   {
     slug: 'afc-31',
@@ -176,6 +174,7 @@ export const events: Event[] = [
     image: '/images/AlmightyMarchDeeside-493.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Welterweight title fight — Lambert vs. Oxley.',
   },
   {
     slug: 'afc-30',
@@ -187,6 +186,7 @@ export const events: Event[] = [
     image: '/images/DN4_3372.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: "O'Neill vs. Ambler at 185 lbs.",
   },
   {
     slug: 'afc-29',
@@ -198,6 +198,7 @@ export const events: Event[] = [
     image: '/images/DN4_3372.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Welterweight title fight — Ambler vs. McGill.',
   },
   {
     slug: 'afc-28',
@@ -209,6 +210,7 @@ export const events: Event[] = [
     image: '/images/DN4_3372.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Featherweight title fight — Holmes vs. Ward.',
   },
   {
     slug: 'afc-27',
@@ -220,6 +222,7 @@ export const events: Event[] = [
     image: '/images/DN4_3372.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Flyweight title fight — Choudhury vs. Fields.',
   },
   {
     slug: 'afc-26',
@@ -231,6 +234,7 @@ export const events: Event[] = [
     image: '/images/Almighty-August2025--186.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Flyweight title fight — Haque vs. Hoye.',
   },
   {
     slug: 'afc-25',
@@ -242,6 +246,7 @@ export const events: Event[] = [
     image: '/images/DN4_3372.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Featherweight title fight — Givens vs. Staines.',
   },
   {
     slug: 'afc-24',
@@ -253,6 +258,7 @@ export const events: Event[] = [
     image: '/images/Almighty-August2025--184.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Uchegbu vs. Fouda at 139 lbs.',
   },
   {
     slug: 'afc-23',
@@ -264,6 +270,7 @@ export const events: Event[] = [
     image: '/images/DN4_3372.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Featherweight title fight — Mullen vs. Pirogan.',
   },
   {
     slug: 'afc-22',
@@ -275,6 +282,7 @@ export const events: Event[] = [
     image: '/images/Almighty-August2025--186.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Flyweight title fight — Haque vs. Wojtas.',
   },
   {
     slug: 'afc-21',
@@ -286,6 +294,7 @@ export const events: Event[] = [
     image: '/images/Almighty-August2025--184.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Sroka vs. Khan at 185 lbs.',
   },
   {
     slug: 'afc-20',
@@ -297,6 +306,7 @@ export const events: Event[] = [
     image: '/images/Almighty-August2025--343.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Haque vs. Robinson at 125 lbs.',
   },
   {
     slug: 'afc-19',
@@ -308,6 +318,7 @@ export const events: Event[] = [
     image: '/images/Almighty-August2025--184.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Uchegbu vs. Jones at 135 lbs.',
   },
   {
     slug: 'afc-18',
@@ -319,6 +330,7 @@ export const events: Event[] = [
     image: '/images/DN4_3372.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'The return. Brocklesby vs. Collins at 155 lbs.',
   },
   {
     slug: 'afc-16',
@@ -330,6 +342,7 @@ export const events: Event[] = [
     image: '/images/DN4_3372.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Last event before the pandemic. Lister vs. Brocklesby at 154 lbs.',
   },
   {
     slug: 'afc-15',
@@ -341,6 +354,7 @@ export const events: Event[] = [
     image: '/images/Almighty-August2025--184.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Bantamweight title fight — White vs. Jones.',
   },
   {
     slug: 'afc-14',
@@ -350,8 +364,9 @@ export const events: Event[] = [
     venue: 'York Barbican',
     location: 'York',
     image: '/images/DN4_3642.jpg',
-    fightCount: 0,
+    fightCount: 20,
     isUpcoming: false,
+    description: 'Brocklesby vs. Downey-Cave at 154 lbs.',
   },
   {
     slug: 'afc-13',
@@ -363,6 +378,7 @@ export const events: Event[] = [
     image: '/images/DN4_3642.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Kieres vs. Cartwright at 140 lbs.',
   },
   {
     slug: 'afc-12',
@@ -374,6 +390,7 @@ export const events: Event[] = [
     image: '/images/Almighty-August2025--184.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Shanks vs. Hignett at 126 lbs.',
   },
   {
     slug: 'afc-11',
@@ -385,6 +402,7 @@ export const events: Event[] = [
     image: '/images/Almighty-August2025--274.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Hewston vs. Smith at 196 lbs.',
   },
   {
     slug: 'afc-10',
@@ -396,6 +414,7 @@ export const events: Event[] = [
     image: '/images/DN4_3642.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Otley vs. Lister at 154 lbs.',
   },
   {
     slug: 'afc-9',
@@ -407,6 +426,7 @@ export const events: Event[] = [
     image: '/images/DN4_3642.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Hardwick vs. Bennett at 170 lbs.',
   },
   {
     slug: 'afc-8',
@@ -418,6 +438,7 @@ export const events: Event[] = [
     image: '/images/DN4_3642.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Creighton vs. Powell at 126 lbs.',
   },
   {
     slug: 'afc-7',
@@ -429,6 +450,7 @@ export const events: Event[] = [
     image: '/images/Almighty-August2025--274.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Gibbon vs. Missin at 146 lbs.',
   },
   {
     slug: 'afc-6',
@@ -440,39 +462,7 @@ export const events: Event[] = [
     image: '/images/Almighty-August2025--274.jpg',
     fightCount: 0,
     isUpcoming: false,
-  },
-  {
-    slug: 'almighty-fight-night-1',
-    number: 0,
-    name: 'Almighty Fight Night 1',
-    date: '2016-12-10',
-    venue: 'Brain and Brawn Fitness',
-    location: 'Leeds',
-    image: '/images/Almighty-August2025--343.jpg',
-    fightCount: 0,
-    isUpcoming: false,
-  },
-  {
-    slug: 'afc-3',
-    number: 3,
-    name: 'AFC 3',
-    date: '2016-10-29',
-    venue: 'O2 Academy Leeds',
-    location: 'Leeds',
-    image: '/images/Almighty-August2025--274.jpg',
-    fightCount: 0,
-    isUpcoming: false,
-  },
-  {
-    slug: 'afc-2',
-    number: 2,
-    name: 'AFC 2',
-    date: '2016-07-23',
-    venue: 'Leeds Town Hall',
-    location: 'Leeds',
-    image: '/images/cover.jpg',
-    fightCount: 0,
-    isUpcoming: false,
+    description: 'Stirk vs. Randolph at 134 lbs.',
   },
   {
     slug: 'afc-5',
@@ -484,6 +474,7 @@ export const events: Event[] = [
     image: '/images/Almighty-August2025--274.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Lightweight title fight — Grant vs. Thinghaugen.',
   },
   {
     slug: 'afc-4',
@@ -495,6 +486,43 @@ export const events: Event[] = [
     image: '/images/Almighty-August2025--274.jpg',
     fightCount: 0,
     isUpcoming: false,
+    description: 'Grant vs. Miller at 161 lbs.',
+  },
+  {
+    slug: 'almighty-fight-night-1',
+    number: 0,
+    name: 'Almighty Fight Night 1',
+    date: '2016-12-10',
+    venue: 'Brain and Brawn Fitness',
+    location: 'Leeds',
+    image: '/images/Almighty-August2025--343.jpg',
+    fightCount: 0,
+    isUpcoming: false,
+    description: 'Special event at Brain and Brawn Fitness. Puskarskis vs. Edwards at 185 lbs.',
+  },
+  {
+    slug: 'afc-3',
+    number: 3,
+    name: 'AFC 3',
+    date: '2016-10-29',
+    venue: 'O2 Academy Leeds',
+    location: 'Leeds',
+    image: '/images/Almighty-August2025--274.jpg',
+    fightCount: 0,
+    isUpcoming: false,
+    description: 'Adamczyk vs. Sweeney at 145 lbs.',
+  },
+  {
+    slug: 'afc-2',
+    number: 2,
+    name: 'AFC 2',
+    date: '2016-07-23',
+    venue: 'Leeds Town Hall',
+    location: 'Leeds',
+    image: '/images/cover.jpg',
+    fightCount: 0,
+    isUpcoming: false,
+    description: 'Missin vs. Crawley at 134 lbs.',
   },
   {
     slug: 'afc-1',
@@ -504,7 +532,7 @@ export const events: Event[] = [
     venue: 'Leeds Town Hall',
     location: 'Leeds',
     image: '/images/cover.jpg',
-    fightCount: 0,
+    fightCount: 12,
     isUpcoming: false,
     description: 'Where it all began. The first ever Almighty Fighting Championship event at Leeds Town Hall.',
   },
