@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --color-afc-blue: #2B7DE9;
+  --color-afc-blue-light: #4A9AF5;
+  --color-afc-blue-dark: #1A5BBF;
+  --color-afc-black: #0A0A0B;
+  --color-afc-dark: #111113;
+  --color-afc-card: #18181B;
+  --color-afc-border: #27272A;
+  --color-afc-text: #E4E4E7;
+  --color-afc-muted: #71717A;
+
+  --font-heading: 'Oswald', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-afc-black);
+    color: var(--color-afc-text);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: var(--color-afc-blue);
+    color: white;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-8 py-3 bg-afc-blue text-white font-semibold uppercase tracking-wider text-sm rounded-sm transition-all duration-200 hover:bg-afc-blue-light hover:shadow-lg hover:shadow-afc-blue/25;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center px-8 py-3 border border-afc-blue text-afc-blue font-semibold uppercase tracking-wider text-sm rounded-sm transition-all duration-200 hover:bg-afc-blue hover:text-white;
+  }
+
+  .heading-xl {
+    font-family: var(--font-heading);
+    @apply text-5xl sm:text-6xl lg:text-7xl font-bold uppercase tracking-tight;
+  }
+
+  .heading-lg {
+    font-family: var(--font-heading);
+    @apply text-3xl sm:text-4xl lg:text-5xl font-bold uppercase tracking-tight;
+  }
+
+  .heading-md {
+    font-family: var(--font-heading);
+    @apply text-2xl sm:text-3xl font-bold uppercase tracking-tight;
+  }
+
+  .card {
+    @apply bg-afc-card border border-afc-border rounded-sm overflow-hidden;
+  }
+
+  .gradient-overlay {
+    background: linear-gradient(to top, var(--color-afc-black) 0%, transparent 60%);
+  }
+
+  .gradient-overlay-full {
+    background: linear-gradient(to top, var(--color-afc-black) 0%, rgba(10,10,11,0.7) 40%, rgba(10,10,11,0.4) 100%);
+  }
+}
