@@ -68,14 +68,14 @@ export default function EventsPage() {
         <div className="section-padding">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             {[
-              { tier: 'Standing', price: '40', note: 'General admission, great atmosphere' },
-              { tier: 'Cage Side', price: '60', note: 'Front row seats, right at the action' },
+              { tier: 'Standing', price: 'From £40', note: 'General admission, great atmosphere' },
+              { tier: 'Cage Side', price: 'From £60', note: 'Front row seats, right at the action' },
               { tier: 'VIP Table', price: 'POA', note: 'Premium tables, limited availability' },
             ].map(t => (
               <div key={t.tier} className="card p-8">
                 <p className="text-afc-blue font-semibold uppercase tracking-wider text-sm mb-2">{t.tier}</p>
                 <p className="text-4xl font-bold text-white font-[var(--font-heading)]">
-                  {t.price === 'POA' ? 'POA' : `\u00A3${t.price}`}
+                  {t.price}
                 </p>
                 <p className="text-afc-muted text-sm mt-2">{t.note}</p>
               </div>

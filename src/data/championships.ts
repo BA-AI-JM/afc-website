@@ -24,10 +24,10 @@ export const champions: Champion[] = [
   {
     division: 'Catchweight',
     weightClass: '160 lbs',
-    champion: 'Lucas Carvalho',
+    champion: 'Stevie Lee',
     wonAt: 'AFC 42',
     wonDate: '2025-08-02',
-    method: 'def. Stevie Lee via TKO (punches) R2 0:13',
+    method: 'def. Lucas Carvalho via Split Decision',
     defences: 0,
     image: '/images/Almighty-August2025--505.jpg',
   },

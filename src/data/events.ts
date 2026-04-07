@@ -26,19 +26,6 @@ export interface Event {
 
 export const events: Event[] = [
   {
-    slug: 'afc-43',
-    number: 43,
-    name: 'AFC 43',
-    date: '2025-11-15',
-    venue: 'TESTBED Leeds',
-    location: 'Leeds',
-    image: '/images/DN4_3372.jpg',
-    fightCount: 20,
-    isUpcoming: true,
-    ticketUrl: '#',
-    description: 'The Almighty Fighting Championship returns to TESTBED Leeds for another stacked card of professional and amateur MMA action.',
-  },
-  {
     slug: 'afc-42',
     number: 42,
     name: 'AFC 42',
@@ -48,9 +35,9 @@ export const events: Event[] = [
     image: '/images/Almighty-August2025--343.jpg',
     fightCount: 22,
     isUpcoming: false,
-    description: 'Catchweight title main event — Lucas Carvalho def. Stevie Lee via TKO (punches) R2 0:13.',
+    description: 'Catchweight title main event — Stevie Lee def. Lucas Carvalho via Split Decision.',
     fights: [
-      { weightClass: 'Catchweight 160lbs', fighter1: 'Lucas Carvalho', fighter2: 'Stevie Lee', result: 'Lucas Carvalho wins', method: 'TKO (punches)', round: 2, time: '0:13', isTitle: true },
+      { weightClass: 'Catchweight 160lbs', fighter1: 'Stevie Lee', fighter2: 'Lucas Carvalho', result: 'Stevie Lee wins', method: 'Split Decision', round: 5, isTitle: true },
       { weightClass: 'Lightweight', fighter1: 'Fighter A', fighter2: 'Fighter B', result: 'TBD', method: 'Decision' },
     ],
   },

@@ -28,7 +28,6 @@ export const fighters: Fighter[] = [
     weightClass: 'Catchweight',
     record: { wins: 8, losses: 2, draws: 0 },
     location: 'Leeds',
-    isChampion: true,
     image: '/images/Almighty-August2025--505.jpg',
     afcAppearances: ['AFC 42'],
   },
@@ -48,6 +47,7 @@ export const fighters: Fighter[] = [
     weightClass: 'Catchweight',
     record: { wins: 6, losses: 3, draws: 0 },
     location: 'UK',
+    isChampion: true,
     afcAppearances: ['AFC 42'],
   },
   {

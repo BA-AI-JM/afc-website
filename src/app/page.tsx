@@ -71,7 +71,7 @@ export default function Home() {
       </section>
 
       {/* ========== NEXT EVENT ========== */}
-      {nextEvent && (
+      {nextEvent ? (
         <section className="py-24">
           <div className="section-padding">
             <div className="text-center mb-12">
@@ -115,6 +115,26 @@ export default function Home() {
               <div className="px-8 pb-8">
                 <Link href="/events" className="btn-primary w-full text-center">
                   Get Tickets &rarr;
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+      ) : (
+        <section className="py-24">
+          <div className="section-padding">
+            <div className="text-center max-w-2xl mx-auto">
+              <p className="text-afc-blue font-semibold uppercase tracking-[0.3em] text-sm mb-3">Coming Soon</p>
+              <h2 className="heading-lg text-white mb-6">Stay Tuned</h2>
+              <p className="text-afc-muted text-lg mb-8">
+                A new chapter is being written. The next AFC event will be announced soon — follow us on social media to be the first to know.
+              </p>
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="https://instagram.com/almightyfightin" target="_blank" rel="noopener noreferrer" className="btn-primary text-base px-8 py-3">
+                  Follow on Instagram
+                </a>
+                <Link href="/contact" className="btn-outline text-base px-8 py-3">
+                  Register Interest
                 </Link>
               </div>
             </div>
