@@ -19,7 +19,7 @@ export const champions: Champion[] = [
     wonDate: '2024-09-28',
     method: 'def. AJ Sturge via Unanimous Decision',
     defences: 0,
-    image: '/images/Almighty-August2025--507.jpg',
+    // TODO: replace with actual Josh Carrick photo
   },
   {
     division: 'Catchweight',
@@ -29,7 +29,7 @@ export const champions: Champion[] = [
     wonDate: '2025-08-02',
     method: 'def. Lucas Carvalho via Split Decision',
     defences: 0,
-    image: '/images/Almighty-August2025--505.jpg',
+    // TODO: replace with actual Stevie Lee photo
   },
   {
     division: 'Flyweight',
@@ -39,6 +39,6 @@ export const champions: Champion[] = [
     wonDate: '2024-09-28',
     method: 'def. Shahad Younis via Unanimous Decision',
     defences: 0,
-    image: '/images/Almighty-August2025--343.jpg',
+    // TODO: replace with actual Shahadot Choudhury photo
   },
 ];
