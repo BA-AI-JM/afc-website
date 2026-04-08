@@ -34,11 +34,11 @@ export const champions: Champion[] = [
   {
     division: 'Flyweight',
     weightClass: '125 lbs',
-    champion: 'Shahadot Choudhury',
-    wonAt: 'AFC 38',
-    wonDate: '2024-09-28',
-    method: 'def. Shahad Younis via Unanimous Decision',
+    champion: 'Raushan Sandhu',
+    wonAt: 'AFC 40',
+    wonDate: '2025-04-12',
+    method: 'def. Akeem Bhatti via Submission (Triangle Choke)',
     defences: 0,
-    // TODO: replace with actual Shahadot Choudhury photo
+    image: '/images/raushan-sandhu-champ.jpg',
   },
 ];
