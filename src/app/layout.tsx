@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Almighty Fighting Championship | Yorkshire\'s Premier MMA Promotion',
-  description: 'Professional and amateur MMA events across the UK since 2016. 43+ events, 970+ fighters. Get tickets, view fight cards, and follow your favourite fighters.',
+  description: 'Professional and amateur MMA events across the UK since 2016. 43+ events, 973+ fighters. View fight cards and follow your favourite fighters.',
   keywords: 'MMA, Mixed Martial Arts, UFC, fighting, Yorkshire, Leeds, amateur MMA, professional MMA, AFC, Almighty Fighting Championship',
   openGraph: {
     title: 'Almighty Fighting Championship',

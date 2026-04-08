@@ -16,7 +16,7 @@ export default function Footer() {
               className="h-10 w-auto mb-4"
             />
             <p className="text-afc-muted text-sm leading-relaxed">
-              Yorkshire&apos;s premier MMA promotion. Professional and amateur bouts since 2016. 42+ events and counting.
+              Yorkshire&apos;s premier MMA promotion. Professional and amateur bouts since 2016. 43+ events and counting.
             </p>
           </div>
 

@@ -52,7 +52,7 @@ export default function AboutPage() {
                 Almighty Fighting Championship started with one event at Leeds Town Hall on April 2nd, 2016. The idea was simple: give fighters in the North of England a proper platform to compete — one that treated amateur bouts with the same respect as professional ones.
               </p>
               <p>
-                Nine years and 42+ events later, AFC has grown into one of the UK&apos;s largest regional MMA promotions. Cards regularly feature up to 30 fights per event, mixing professional and amateur bouts across every weight class. Nearly 1,000 fighters have stepped into the AFC cage.
+                Ten years and 43+ events later, AFC has grown into one of the UK&apos;s largest regional MMA promotions. Cards regularly feature up to 30 fights per event, mixing professional and amateur bouts across every weight class. Nearly 1,000 fighters have stepped into the AFC cage.
               </p>
               <p>
                 From Leeds Town Hall to the O2 Academy, from York Barbican to Coventry Sports Connection, from Deeside Leisure Centre to TESTBED Leeds — AFC has brought world-class MMA events to cities across the UK. And we&apos;re just getting started.

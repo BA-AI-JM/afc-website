@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Fighters | Almighty Fighting Championship',
-  description: 'AFC fighter roster — champions, records, and weight classes. 973+ fighters have competed across 42+ events since 2016.',
+  description: 'AFC fighter roster — champions, records, and weight classes. 973+ fighters have competed across 43+ events since 2016.',
 };
 
 export default function FightersPage() {
@@ -125,7 +125,7 @@ export default function FightersPage() {
 
           <div className="mt-8 card p-8 text-center">
             <p className="text-afc-muted">
-              This is a sample of the AFC fighter roster. The full database contains <span className="text-white font-semibold">973+ fighters</span> across all 42+ events.
+              This is a sample of the AFC fighter roster. The full database contains <span className="text-white font-semibold">973+ fighters</span> across all 43+ events.
             </p>
             <p className="text-afc-muted text-sm mt-2">
               Historical records available via{' '}

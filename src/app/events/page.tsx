@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Events | Almighty Fighting Championship',
-  description: 'Upcoming and past AFC events. Get tickets for the next fight night or browse the full 42+ event archive.',
+  description: 'Upcoming and past AFC events. Browse the full 43+ event archive or get tickets for the next fight night.',
 };
 
 export default function EventsPage() {
