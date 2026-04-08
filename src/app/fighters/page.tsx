@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Fighters | Almighty Fighting Championship',
-  description: 'Browse the AFC fighter roster. Nearly 1,000 fighters have competed across 42+ events since 2016.',
+  description: 'AFC fighter roster — champions, records, and weight classes. 973+ fighters have competed across 42+ events since 2016.',
 };
 
 export default function FightersPage() {

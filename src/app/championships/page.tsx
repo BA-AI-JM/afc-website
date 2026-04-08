@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Championships | Almighty Fighting Championship',
-  description: 'AFC championship title holders and title history. Current champions across all weight divisions.',
+  description: 'AFC title holders across all weight divisions. Current champions, title history, and defence records.',
 };
 
 export default function ChampionshipsPage() {

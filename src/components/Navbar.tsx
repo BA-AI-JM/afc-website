@@ -42,7 +42,7 @@ export default function Navbar() {
               </Link>
             ))}
             <Link href="/events" className="btn-primary text-xs">
-              Get Tickets
+              View Events
             </Link>
           </div>
 
@@ -73,7 +73,7 @@ export default function Navbar() {
             </Link>
           ))}
           <Link href="/events" className="btn-primary text-center mt-2" onClick={() => setIsOpen(false)}>
-            Get Tickets
+            View Events
           </Link>
         </div>
       </div>
