@@ -29,7 +29,7 @@ export const champions: Champion[] = [
     wonDate: '2025-08-02',
     method: 'def. Lucas Carvalho via Split Decision',
     defences: 0,
-    image: '/images/Almighty-August2025--505.jpg',
+    image: '/images/Almighty-August2025--507.jpg',
   },
   {
     division: 'Flyweight',

@@ -47,7 +47,7 @@ export const fighters: Fighter[] = [
     record: { wins: 6, losses: 3, draws: 0 },
     location: 'UK',
     isChampion: true,
-    image: '/images/Almighty-August2025--505.jpg',
+    image: '/images/Almighty-August2025--507.jpg',
     afcAppearances: ['AFC 42'],
   },
   {
