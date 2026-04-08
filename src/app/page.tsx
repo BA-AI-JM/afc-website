@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import CountdownTimer from '@/components/CountdownTimer';
-import { upcomingEvents, pastEvents } from '@/data/events';
+import { events, upcomingEvents, pastEvents } from '@/data/events';
 import { champions } from '@/data/championships';
 
 const nextEvent = upcomingEvents[0];
@@ -49,11 +49,11 @@ export default function Home() {
             Where Fighters<br />Are Made
           </h1>
           <p className="text-afc-muted text-lg sm:text-xl max-w-2xl mx-auto mb-10">
-            Professional and amateur MMA events across the UK since 2016. Over 42 events. Nearly 1,000 fighters. The most exciting fight shows in the country.
+            Professional and amateur MMA events across the UK since 2016. Over {events.length} events. Nearly 1,000 fighters. The most exciting fight shows in the country.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link href="/events" className="btn-primary text-base px-10 py-4">
-              Get Tickets
+              View Events
             </Link>
             <Link href="/about" className="btn-outline text-base px-10 py-4">
               Our Story
@@ -147,9 +147,9 @@ export default function Home() {
         <div className="section-padding">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             {[
-              { value: '42+', label: 'Events' },
+              { value: `${events.length}`, label: 'Events' },
               { value: '973', label: 'Fighters' },
-              { value: '9', label: 'Years Running' },
+              { value: '10', label: 'Years Running' },
               { value: '30+', label: 'Fights Per Show' },
             ].map(stat => (
               <div key={stat.label}>

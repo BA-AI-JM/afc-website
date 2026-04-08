@@ -22,7 +22,7 @@ export default function EventsPage() {
       </section>
 
       {/* Upcoming */}
-      {upcomingEvents.length > 0 && (
+      {upcomingEvents.length > 0 ? (
         <section className="py-20">
           <div className="section-padding">
             <h2 className="heading-lg text-white mb-10">Upcoming Events</h2>
@@ -59,6 +59,18 @@ export default function EventsPage() {
                 </div>
               ))}
             </div>
+          </div>
+        </section>
+      ) : (
+        <section className="py-20">
+          <div className="section-padding text-center">
+            <h2 className="heading-lg text-white mb-4">Upcoming Events</h2>
+            <p className="text-afc-muted text-lg max-w-xl mx-auto mb-6">
+              The next AFC event will be announced soon. Follow us on social media to be the first to know.
+            </p>
+            <a href="https://instagram.com/almightyfightin" target="_blank" rel="noopener noreferrer" className="btn-outline">
+              Follow on Instagram
+            </a>
           </div>
         </section>
       )}
