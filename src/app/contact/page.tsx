@@ -9,8 +9,16 @@ export default function ContactPage() {
   const [formType, setFormType] = useState<FormType>('fighter');
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    const entries = Array.from(formData.entries());
+    const body = entries
+      .map(([key, value]) => `${key}: ${value}`)
+      .join('\n');
+    const subject = `AFC ${formType.replace('_', ' ')} enquiry`;
+    const mailto = `mailto:info@almightyfightingchampionship.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.open(mailto, '_blank');
     setSubmitted(true);
   };
 
@@ -68,6 +76,7 @@ export default function ContactPage() {
                     <label className="block text-afc-muted text-xs uppercase tracking-wider mb-2">Full Name *</label>
                     <input
                       type="text"
+                      name="name"
                       required
                       className="w-full bg-afc-dark border border-afc-border rounded-sm px-4 py-3 text-white placeholder-afc-muted focus:border-afc-blue focus:outline-none transition-colors"
                       placeholder="Your name"
@@ -77,6 +86,7 @@ export default function ContactPage() {
                     <label className="block text-afc-muted text-xs uppercase tracking-wider mb-2">Email *</label>
                     <input
                       type="email"
+                      name="email"
                       required
                       className="w-full bg-afc-dark border border-afc-border rounded-sm px-4 py-3 text-white placeholder-afc-muted focus:border-afc-blue focus:outline-none transition-colors"
                       placeholder="your@email.com"
@@ -91,13 +101,14 @@ export default function ContactPage() {
                         <label className="block text-afc-muted text-xs uppercase tracking-wider mb-2">Gym / Team</label>
                         <input
                           type="text"
+                          name="gym"
                           className="w-full bg-afc-dark border border-afc-border rounded-sm px-4 py-3 text-white placeholder-afc-muted focus:border-afc-blue focus:outline-none transition-colors"
                           placeholder="Your gym or team name"
                         />
                       </div>
                       <div>
                         <label className="block text-afc-muted text-xs uppercase tracking-wider mb-2">Weight Class</label>
-                        <select className="w-full bg-afc-dark border border-afc-border rounded-sm px-4 py-3 text-white focus:border-afc-blue focus:outline-none transition-colors">
+                        <select name="weight_class" className="w-full bg-afc-dark border border-afc-border rounded-sm px-4 py-3 text-white focus:border-afc-blue focus:outline-none transition-colors">
                           <option value="">Select weight class</option>
                           <option>Flyweight (125 lbs)</option>
                           <option>Bantamweight (135 lbs)</option>
@@ -115,13 +126,14 @@ export default function ContactPage() {
                         <label className="block text-afc-muted text-xs uppercase tracking-wider mb-2">Record (W-L-D)</label>
                         <input
                           type="text"
+                          name="record"
                           className="w-full bg-afc-dark border border-afc-border rounded-sm px-4 py-3 text-white placeholder-afc-muted focus:border-afc-blue focus:outline-none transition-colors"
                           placeholder="e.g. 3-1-0"
                         />
                       </div>
                       <div>
                         <label className="block text-afc-muted text-xs uppercase tracking-wider mb-2">Pro or Amateur?</label>
-                        <select className="w-full bg-afc-dark border border-afc-border rounded-sm px-4 py-3 text-white focus:border-afc-blue focus:outline-none transition-colors">
+                        <select name="level" className="w-full bg-afc-dark border border-afc-border rounded-sm px-4 py-3 text-white focus:border-afc-blue focus:outline-none transition-colors">
                           <option value="">Select</option>
                           <option>Amateur</option>
                           <option>Professional</option>
@@ -137,6 +149,7 @@ export default function ContactPage() {
                     <label className="block text-afc-muted text-xs uppercase tracking-wider mb-2">Company / Brand</label>
                     <input
                       type="text"
+                      name="company"
                       className="w-full bg-afc-dark border border-afc-border rounded-sm px-4 py-3 text-white placeholder-afc-muted focus:border-afc-blue focus:outline-none transition-colors"
                       placeholder="Your company name"
                     />
@@ -146,6 +159,7 @@ export default function ContactPage() {
                 <div>
                   <label className="block text-afc-muted text-xs uppercase tracking-wider mb-2">Message *</label>
                   <textarea
+                    name="message"
                     required
                     rows={5}
                     className="w-full bg-afc-dark border border-afc-border rounded-sm px-4 py-3 text-white placeholder-afc-muted focus:border-afc-blue focus:outline-none transition-colors resize-none"

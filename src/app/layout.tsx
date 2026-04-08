@@ -5,13 +5,27 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Almighty Fighting Championship | Yorkshire\'s Premier MMA Promotion',
-  description: 'Professional and amateur MMA events across the UK since 2016. 42+ events, 970+ fighters. Get tickets, view fight cards, and follow your favourite fighters.',
+  description: 'Professional and amateur MMA events across the UK since 2016. 43+ events, 970+ fighters. Get tickets, view fight cards, and follow your favourite fighters.',
   keywords: 'MMA, Mixed Martial Arts, UFC, fighting, Yorkshire, Leeds, amateur MMA, professional MMA, AFC, Almighty Fighting Championship',
   openGraph: {
     title: 'Almighty Fighting Championship',
     description: 'Yorkshire\'s Premier MMA Promotion. Professional and amateur bouts since 2016.',
     type: 'website',
-    images: ['/images/DN4_3372.jpg'],
+    url: 'https://afc-website-chi.vercel.app',
+    images: [
+      {
+        url: 'https://afc-website-chi.vercel.app/images/DN4_3372.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Almighty Fighting Championship',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Almighty Fighting Championship',
+    description: 'Yorkshire\'s Premier MMA Promotion. Professional and amateur bouts since 2016.',
+    images: ['https://afc-website-chi.vercel.app/images/DN4_3372.jpg'],
   },
 };
 

@@ -224,7 +224,7 @@ export default function Home() {
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
-                  <div className="gradient-overlay absolute inset-0" />
+                  <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(10,10,11,0.9) 0%, rgba(10,10,11,0.2) 40%, transparent 70%)' }} />
                   <div className="absolute bottom-4 left-0 right-0">
                     <p className="text-afc-blue text-xs font-bold uppercase tracking-[0.2em]">{champ.division} Champion</p>
                   </div>
@@ -286,7 +286,7 @@ export default function Home() {
               Fighter Registration
             </Link>
             <Link href="/events" className="btn-outline px-10 py-4">
-              Buy Tickets
+              View Events
             </Link>
           </div>
         </div>

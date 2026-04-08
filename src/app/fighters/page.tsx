@@ -44,7 +44,7 @@ export default function FightersPage() {
                       <span className="text-afc-muted text-6xl font-bold font-[var(--font-heading)]">{fighter.name[0]}</span>
                     </div>
                   )}
-                  <div className="gradient-overlay absolute inset-0" />
+                  <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(10,10,11,0.9) 0%, rgba(10,10,11,0.2) 40%, transparent 70%)' }} />
                   <div className="absolute top-4 right-4">
                     <span className="bg-afc-blue text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-sm flex items-center gap-1">
                       <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
