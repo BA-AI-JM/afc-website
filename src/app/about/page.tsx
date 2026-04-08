@@ -26,7 +26,7 @@ const timeline = [
   { year: '2022', event: 'National expansion begins. Coventry added to the circuit.' },
   { year: '2023', event: 'Fighter roster passes 700. Described as "the most exciting amateur fight show in the country."' },
   { year: '2024', event: '6 events in one year. Barnsley, Coventry, and Leeds. Heavyweight and Flyweight titles contested.' },
-  { year: '2025', event: 'TESTBED Leeds becomes the home venue. New ownership takes the reins — the next chapter begins.' },
+  { year: '2025', event: 'Multiple shows at TESTBED Leeds. New ownership takes the reins — the next chapter begins.' },
 ];
 
 export default function AboutPage() {
