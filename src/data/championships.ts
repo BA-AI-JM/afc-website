@@ -12,14 +12,24 @@ export interface Champion {
 
 export const champions: Champion[] = [
   {
-    division: 'Heavyweight',
-    weightClass: '265 lbs',
-    champion: 'Josh Carrick',
-    wonAt: 'AFC 38',
-    wonDate: '2024-09-28',
-    method: 'def. AJ Sturge via Unanimous Decision',
+    division: 'Flyweight',
+    weightClass: '125 lbs',
+    champion: 'Raushan Sandhu',
+    wonAt: 'AFC 40',
+    wonDate: '2025-04-12',
+    method: 'def. Akeem Bhatti via Submission (Triangle Choke)',
     defences: 0,
-    // TODO: replace with actual Josh Carrick photo
+    image: '/images/raushan-sandhu-champ.jpg',
+  },
+  {
+    division: 'Featherweight',
+    weightClass: '145 lbs',
+    champion: 'Mickey Leithner',
+    wonAt: 'AFC 40',
+    wonDate: '2025-04-12',
+    method: 'def. Lewis Mackenzie via Unanimous Decision',
+    defences: 0,
+    image: '/images/mickey-leithner-champ.jpg',
   },
   {
     division: 'Catchweight',
@@ -30,15 +40,5 @@ export const champions: Champion[] = [
     method: 'def. Lucas Carvalho via Split Decision',
     defences: 0,
     image: '/images/Almighty-August2025--507.jpg',
-  },
-  {
-    division: 'Flyweight',
-    weightClass: '125 lbs',
-    champion: 'Raushan Sandhu',
-    wonAt: 'AFC 40',
-    wonDate: '2025-04-12',
-    method: 'def. Akeem Bhatti via Submission (Triangle Choke)',
-    defences: 0,
-    image: '/images/raushan-sandhu-champ.jpg',
   },
 ];
